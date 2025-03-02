@@ -1,0 +1,10 @@
+transformers
+langchain
+langchain-huggingface
+pypdf
+langchain-community
+datasets
+langchain-text-splitters
+streamlit
+dotenv
+langchain-chroma
