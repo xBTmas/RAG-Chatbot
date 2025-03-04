@@ -1,10 +1,10 @@
 ### **PDF Q&A and Summarization App**
 
-**Overview**
+## **Overview**
 
 This project is a PDF-based Question Answering (Q&A) and Summarization web application built using LangChain, Hugging Face models, and Streamlit. It allows users to upload PDF documents, ask questions about their content, and generate concise summaries. The application is containerized with Docker for easy deployment and scalability.
 
-**Features**
+## **Features**
 
 Q&A System – Users can ask questions based on uploaded PDFs, powered by Retrieval-Augmented Generation (RAG).
 
@@ -18,7 +18,7 @@ Streamlit-based UI – Interactive and user-friendly web interface.
 
 Dockerized for Portability – Easily deployable using Docker.
 
-**Tech Stack**
+## **Tech Stack**
 
 Frontend & UI: Streamlit
 
@@ -32,7 +32,7 @@ Deployment: Docker
 
 Installation & Setup
 
-***Prerequisites***:
+## ***Prerequisites***:
 
 Python 3.8+
 
@@ -40,9 +40,9 @@ Docker (if running in a container)
 
 Hugging Face API Key (stored in .env file)
 
-**Steps to Run Locally**:
+## **Steps to Run Locally**:
 
-###Clone the repository:
+Clone the repository:
 ```bash
 git clone https://github.com/your-repo/RAG-Chatbot
 cd RAG-Chatbot
@@ -54,7 +54,7 @@ source env/bin/activate   # For macOS/Linux
 env\Scripts\activate      # For Windows
 ```
 
-***Install dependencies***:
+## ***Install dependencies***:
 ```bash
 pip install -r requirements.txt
 ```
@@ -64,12 +64,12 @@ Create a .env file and add your Hugging Face API key:
 HUGGINGFACEHUB_API_TOKEN=your_api_key_here
 ```
 
-Run the application:
+## **Run the application**:
 ```bash
 streamlit run main.py
 ```
 
-Run with Docker:
+## **Run with Docker**:
 
 Build the Docker image:
 ```bash
