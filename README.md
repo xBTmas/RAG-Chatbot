@@ -78,7 +78,7 @@ docker build -t main . # can be whatever u want the name to be
 ```bash
 docker run -p 8501:8501 main
 ```
-***Usage***
+## ***Usage***
 
 Upload a PDF document using the file uploader.
 
