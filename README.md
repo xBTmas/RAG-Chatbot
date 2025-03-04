@@ -1,4 +1,4 @@
-**PDF Q&A and Summarization App**
+### **PDF Q&A and Summarization App**
 
 **Overview**
 
