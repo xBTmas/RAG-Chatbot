@@ -1,10 +1,10 @@
-PDF Q&A and Summarization App
+**PDF Q&A and Summarization App**
 
-Overview
+**Overview**
 
 This project is a PDF-based Question Answering (Q&A) and Summarization web application built using LangChain, Hugging Face models, and Streamlit. It allows users to upload PDF documents, ask questions about their content, and generate concise summaries. The application is containerized with Docker for easy deployment and scalability.
 
-Features
+**Features**
 
 Q&A System – Users can ask questions based on uploaded PDFs, powered by Retrieval-Augmented Generation (RAG).
 
@@ -18,7 +18,7 @@ Streamlit-based UI – Interactive and user-friendly web interface.
 
 Dockerized for Portability – Easily deployable using Docker.
 
-Tech Stack
+**Tech Stack**
 
 Frontend & UI: Streamlit
 
@@ -40,13 +40,13 @@ Docker (if running in a container)
 
 Hugging Face API Key (stored in .env file)
 
-Steps to Run Locally:
+**Steps to Run Locally**:
 
-Clone the repository:
-
-git clone https://github.com/your-repo/pdf-qna-summarization.git
-cd pdf-qna-summarization
-
+###Clone the repository:
+```bash
+git clone https://github.com/your-repo/RAG-Chatbot
+cd RAG-Chatbot
+```
 Create and activate a virtual environment:
 
 python -m venv env
