@@ -32,7 +32,7 @@ Deployment: Docker
 
 Installation & Setup
 
-Prerequisites:
+***Prerequisites***:
 
 Python 3.8+
 
@@ -48,36 +48,37 @@ git clone https://github.com/your-repo/RAG-Chatbot
 cd RAG-Chatbot
 ```
 Create and activate a virtual environment:
-
+```bash
 python -m venv env
 source env/bin/activate   # For macOS/Linux
 env\Scripts\activate      # For Windows
+```
 
-Install dependencies:
-
+***Install dependencies***:
+```bash
 pip install -r requirements.txt
-
+```
 Set up environment variables:
-
 Create a .env file and add your Hugging Face API key:
-
+```bash
 HUGGINGFACEHUB_API_TOKEN=your_api_key_here
+```
 
 Run the application:
-
+```bash
 streamlit run main.py
+```
 
 Run with Docker:
 
 Build the Docker image:
-
-docker build -t pdf-qna-app .
-
-Run the container:
-
-docker run -p 8501:8501 pdf-qna-app
-
-Usage
+```bash
+docker build -t main . # can be whatever u want the name to be 
+```
+```bash
+docker run -p 8501:8501 main
+```
+***Usage***
 
 Upload a PDF document using the file uploader.
 
@@ -90,8 +91,6 @@ Choose an option:
 View the AI-generated responses displayed in the chat UI.
 
 Future Enhancements
-
-Support for multiple document processing.
 
 Enhanced metadata filtering for refined searches.
 
